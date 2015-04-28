@@ -1,0 +1,35 @@
+{
+  "name": "espect.js",
+  "version": "1.0.0",
+  "description": "A static AOP tool for ECMAScript",
+  "main": "lib/espect.js",
+  "bin": {
+    "espect": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowmantw/espect.js.git"
+  },
+  "keywords": [
+    "aop",
+    "compiler"
+  ],
+  "author": "Greg Weng<snowmantw@gmail.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/snowmantw/espect.js/issues"
+  },
+  "homepage": "https://github.com/snowmantw/espect.js",
+  "dependencies": {
+    "acorn": "^1.0.3",
+    "escodegen": "^1.6.1",
+    "minimist": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1"
+  }
+}
