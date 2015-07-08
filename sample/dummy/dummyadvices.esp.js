@@ -3,7 +3,7 @@
 module.exports = function(espect) {
   espect
     .select(__dirname + '/dummybase.js *')
-    .before(function() {
+    .before(function(context) {
         var id = context.meta.id;
         var paths = context.meta.paths;
         // XXX: To assign a result variable to prevent return
